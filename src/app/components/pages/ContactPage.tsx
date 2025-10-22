@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState, FormEvent } from "react";
-import emailjs from "@emailjs/browser"; // Updated to new package
+import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion"; // <-- Import motion
 
